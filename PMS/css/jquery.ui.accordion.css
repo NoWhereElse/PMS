@@ -1,0 +1,59 @@
+/*!
+ * jQuery UI Accordion 1.10.3
+ * http://jqueryui.com
+ *
+ * Copyright 2013 jQuery Foundation and other contributors
+ * Released under the MIT license.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Accordion#theming
+ */
+.ui-accordion .ui-accordion-header {
+	display: block;
+	cursor: pointer;
+	position: relative;
+	margin-top: 2px;
+	padding: .5em .5em .5em .7em;
+	min-height: 0; /* support: IE7 */
+	font-family:Garamond;
+	background-color: #cd3d2e;
+	background-image: -moz-linear-gradient(top,  #cd3d2e 0%, #cd3d2e 100%); /* FF3.6+ */
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cd3d2e), color-stop(100%,#cd3d2e)); /* Chrome,Safari4+ */
+	background-image: -webkit-linear-gradient(top,  #cd3d2e 0%,#cd3d2e 100%); /* Chrome10+,Safari5.1+ */
+	background-image: -o-linear-gradient(top,  #cd3d2e 0%,#cd3d2e 100%); /* Opera 11.10+ */
+	background-image: -ms-linear-gradient(top,  #cd3d2e 0%,#cd3d2e 100%); /* IE10+ */
+	background-image: linear-gradient(to bottom,  #cd3d2e 0%,#cd3d2e 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cd3d2e', endColorstr='#cd3d2e',GradientType=0 ); /* IE6-9 */
+}
+
+
+	
+}
+.ui-accordion .ui-accordion-header .ui-icon
+ { 
+ position: absolute; left: 100%; margin-left: -30px; top: 50%; margin-top: -8px; 
+ }
+
+
+ 
+.ui-accordion .ui-accordion-icons {
+	padding-left: 2.2em;
+}
+.ui-accordion .ui-accordion-noicons {
+	padding-left: .7em;
+}
+.ui-accordion .ui-accordion-icons .ui-accordion-icons {
+	padding-left: 2.2em;
+}
+.ui-accordion .ui-accordion-header .ui-accordion-header-icon {
+	position: absolute;
+	left: .5em;
+	top: 50%;
+	margin-top: -8px;
+}
+.ui-accordion .ui-accordion-content {
+	padding: 1em 2.2em;
+	border-top: 0;
+	overflow: auto;
+}
+
