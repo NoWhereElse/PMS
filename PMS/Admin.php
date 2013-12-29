@@ -31,15 +31,15 @@ $uname=$_POST["uname"];
       </li>
     <li class="dropdown">
      
-      <a href="View.php" data-toggle="dropdown">New Registration</a>
+      <a href="userreg_form.php" data-toggle="dropdown">New Registration</a>
     </li>
     <li class="dropdown">
      
-      <a href="#" data-toggle="dropdown">Patients</a>
+      <a href="patreg_form.php" data-toggle="dropdown">Patients</a>
    </li>
     <li class="dropdown">
      
-      <a href="#" data-toggle="dropdown">Doctors</a>
+      <a href="docreg_form.php" data-toggle="dropdown">Doctors</a>
    </li>
     <li class="dropdown">
             <a href="#" data-toggle="dropdown">Users</a>

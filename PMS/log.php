@@ -1,11 +1,14 @@
 <?php
 
+
 $uname=$_POST["username"];
+/* @var $pass type */
 $pass=$_POST["password"];
 
 
-echo "$uname";
-echo "$pass";
+
+#echo "$uname";
+#echo "$pass";
 
 $username = "root";
 $password = "";

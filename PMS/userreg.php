@@ -1,12 +1,10 @@
 <?php
 
-$did=$_POST["did"];
+$uid=$_POST["uid"];
 $fname=$_POST["fname"];
-$lname=$_POST["lname"];
-$designation=$_POST["desig"];
-$qualification=$_POST["qual"];
-$address=$_POST["address"];
-$mobileno=$_POST["mobile"];
+$pass=$_POST["pass"];
+$users=$_POST["users"];
+
 
 
 $username = "root";
@@ -20,7 +18,7 @@ $dbhandle = mysql_connect($hostname, $username, $password)
 //select a database to work with
 $selected = mysql_select_db("pms",$dbhandle) or die("Could not select pms");
 
-$sql = "INSERT INTO doctor "."(DID,FName,LName,Designation,Qualification,Address,TelephoneNumber,IsActive)"."values('$did','$fname','$lname','$designation','$qualification','$address','$mobileno','1')";
+$sql = "INSERT INTO users "."(UID,Name,Password,UserType,IsActive)"."values('$uid','$fname','$pass','$users','1')";
 
 if (!mysql_query($sql))
   {
@@ -29,7 +27,7 @@ if (!mysql_query($sql))
 echo "1 record added";
 
 
-header('location: docreg_form.php');
+header('location: userreg_form.php');
 
 ?> 
  

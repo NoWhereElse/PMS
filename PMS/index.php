@@ -50,8 +50,8 @@ $(function() {
 </script>
 </head>
 <body >
-<div style="position:absolute; left:0px; top:0px;width=100%">
-<table width=1300 height=30>
+<div style="position:absolute; left:0px; width:100%; top:0px; ">
+<table width=100% height=30>
       <td align="left"   bgcolor="429c30"> <font size=8 face="Garamond" font color="white" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MyClinic</td>
 	 	 
  </table>
@@ -77,8 +77,8 @@ $(function() {
 
 </table>
 </div>
-<div style="position:absolute; left:0px; bottom:0px;width=100%">
-<table width=1300 height=30>
+<div style="position:absolute; left:0px; width:100%; bottom:0px; ">
+<table width=100% height=30>
       <td align="Right"   bgcolor="429c30"> <font size=4 face="Garamond" font color="white" >Powered By NoWhereElse</td>
 	 	 
  </table>
